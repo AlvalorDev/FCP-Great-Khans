@@ -1,5 +1,4 @@
-<?xml version="1.0"
- encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
     <!--__________ Backstories __________-->
@@ -13,8 +12,8 @@
     <!-- Chem Runner -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Chem_Runner</defName>
-        <identifier>FCP_Khan_Chem_Runner</identifier>
+        <defName>FCP_Backstory_Khan_Chem_Runner</defName>
+        <identifier>FCP_Backstory_Khan_Chem_Runner</identifier>
         <slot>Adulthood</slot>
         <title>Chem Runner</title>
         <titleShort>Chem Runner</titleShort>
@@ -27,8 +26,8 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
-            <li>FCP_Wastelanders</li>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -39,8 +38,8 @@
     <!-- Khan Advisor -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Advisor</defName>
-        <identifier>FCP_Khan_Advisor</identifier>
+        <defName>FCP_Backstory_Khan_Advisor</defName>
+        <identifier>FCP_Backstory_Khan_Advisor</identifier>
         <slot>Adulthood</slot>
         <title>Khan Advisor</title>
         <titleShort>Khan Advisor</titleShort>
@@ -54,7 +53,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -65,8 +64,8 @@
     <!-- Yurt Maker -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Yurt_Maker</defName>
-        <identifier>FCP_Khan_Yurt_Maker</identifier>
+        <defName>FCP_Backstory_Khan_Yurt_Maker</defName>
+        <identifier>FCP_Backstory_Khan_Yurt_Maker</identifier>
         <slot>Adulthood</slot>
         <title>Yurt Maker</title>
         <titleShort>Yurt Maker</titleShort>
@@ -78,8 +77,8 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
-            <li>FCP_Wastelanders</li>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -90,8 +89,8 @@
     <!-- Khan Legend Keeper -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Legend_Keeper</defName>
-        <identifier>FCP_Khan_Legend_Keeper</identifier>
+        <defName>FCP_Backstory_Khan_Legend_Keeper</defName>
+        <identifier>FCP_Backstory_Khan_Legend_Keeper</identifier>
         <slot>Adulthood</slot>
         <title>Khan Legend Keeper</title>
         <titleShort>Khan Legend Keeper</titleShort>
@@ -104,7 +103,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -115,8 +114,8 @@
     <!-- Khan Armorer -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Armorer</defName>
-        <identifier>FCP_Khan_Armorer</identifier>
+        <defName>FCP_Backstory_Khan_Armorer</defName>
+        <identifier>FCP_Backstory_Khan_Armorer</identifier>
         <slot>Adulthood</slot>
         <title>Khan Armorer</title>
         <titleShort>Khan Armorer</titleShort>
@@ -129,7 +128,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -140,8 +139,8 @@
     <!-- Khan Chem Maker -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Chem_Maker</defName>
-        <identifier>FCP_Khan_Chem_Maker</identifier>
+        <defName>FCP_Backstory_Khan_Chem_Maker</defName>
+        <identifier>FCP_Backstory_Khan_Chem_Maker</identifier>
         <slot>Adulthood</slot>
         <title>Khan Chem Maker</title>
         <titleShort>Khan Chem Maker</titleShort>
@@ -154,7 +153,7 @@
         <workDisables>Cleaning</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -165,8 +164,8 @@
     <!-- Khan Hunter -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Hunter</defName>
-        <identifier>FCP_Khan_Hunter</identifier>
+        <defName>FCP_Backstory_Khan_Hunter</defName>
+        <identifier>FCP_Backstory_Khan_Hunter</identifier>
         <slot>Adulthood</slot>
         <title>Khan Hunter</title>
         <titleShort>Khan Hunter</titleShort>
@@ -179,7 +178,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -190,8 +189,8 @@
     <!-- Khan Firekeeper -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Firekeeper</defName>
-        <identifier>FCP_Khan_Firekeeper</identifier>
+        <defName>FCP_Backstory_Khan_Firekeeper</defName>
+        <identifier>FCP_Backstory_Khan_Firekeeper</identifier>
         <slot>Adulthood</slot>
         <title>Khan Firekeeper</title>
         <titleShort>Khan Firekeeper</titleShort>
@@ -206,7 +205,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -217,8 +216,8 @@
     <!-- War Party Leader -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_War_Party_Leader</defName>
-        <identifier>FCP_Khan_War_Party_Leader</identifier>
+        <defName>FCP_Backstory_Khan_War_Party_Leader</defName>
+        <identifier>FCP_Backstory_Khan_War_Party_Leader</identifier>
         <slot>Adulthood</slot>
         <title>War Party Leader</title>
         <titleShort>War Party Leader</titleShort>
@@ -231,8 +230,8 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
-            <li>FCP_Wastelanders</li>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -243,8 +242,8 @@
     <!-- Khan Herder -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Herder</defName>
-        <identifier>FCP_Khan_Herder</identifier>
+        <defName>FCP_Backstory_Khan_Herder</defName>
+        <identifier>FCP_Backstory_Khan_Herder</identifier>
         <slot>Adulthood</slot>
         <title>Khan Herder</title>
         <titleShort>Khan Herder</titleShort>
@@ -258,7 +257,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -269,8 +268,8 @@
     <!-- Khan Labourer -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Labourer</defName>
-        <identifier>FCP_Khan_Labourer</identifier>
+        <defName>FCP_Backstory_Khan_Labourer</defName>
+        <identifier>FCP_Backstory_Khan_Labourer</identifier>
         <slot>Adulthood</slot>
         <title>Khan Labourer</title>
         <titleShort>Khan Labourer</titleShort>
@@ -283,7 +282,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -294,8 +293,8 @@
     <!-- Khan Poet -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Poet</defName>
-        <identifier>FCP_Khan_Poet</identifier>
+        <defName>FCP_Backstory_Khan_Poet</defName>
+        <identifier>FCP_Backstory_Khan_Poet</identifier>
         <slot>Adulthood</slot>
         <title>Khan Poet</title>
         <titleShort>Khan Poet</titleShort>
@@ -309,7 +308,7 @@
         <workDisables>Violence</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -320,8 +319,8 @@
     <!-- Khan Mercenary -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Mercenary</defName>
-        <identifier>FCP_Khan_Mercenary</identifier>
+        <defName>FCP_Backstory_Khan_Mercenary</defName>
+        <identifier>FCP_Backstory_Khan_Mercenary</identifier>
         <slot>Adulthood</slot>
         <title>Khan Mercenary</title>
         <titleShort>Khan Mercenary</titleShort>
@@ -335,9 +334,9 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
-            <li>FCP_Wastelanders</li>
-            <li>FCP_Mercenaries</li>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
+            <li>FCP_Backstory_Mercenaries</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -348,8 +347,8 @@
     <!-- Khan Trader -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Trader</defName>
-        <identifier>FCP_Khan_Trader</identifier>
+        <defName>FCP_Backstory_Khan_Trader</defName>
+        <identifier>FCP_Backstory_Khan_Trader</identifier>
         <slot>Adulthood</slot>
         <title>Khan Trader</title>
         <titleShort>Khan Trader</titleShort>
@@ -362,9 +361,9 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
-            <li>FCP_Great_Khan_Trader</li>
-            <li>FCP_Wastelanders</li>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Khan_Trader</li>
+            <li>FCP_Backstory_Wastelanders</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -375,8 +374,8 @@
     <!-- Khan Savage -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Savage</defName>
-        <identifier>FCP_Khan_Savage</identifier>
+        <defName>FCP_Backstory_Khan_Savage</defName>
+        <identifier>FCP_Backstory_Khan_Savage</identifier>
         <slot>Adulthood</slot>
         <title>Khan Savage</title>
         <titleShort>Khan Savage</titleShort>
@@ -388,7 +387,7 @@
         <workDisables>Intellectual, Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -399,8 +398,8 @@
     <!-- Khan Warrior -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Warrior</defName>
-        <identifier>FCP_Khan_Warrior</identifier>
+        <defName>FCP_Backstory_Khan_Warrior</defName>
+        <identifier>FCP_Backstory_Khan_Warrior</identifier>
         <slot>Adulthood</slot>
         <title>Khan Warrior</title>
         <titleShort>Khan Warrior</titleShort>
@@ -414,7 +413,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -425,8 +424,8 @@
     <!-- Khan Negotiator -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Negotiator</defName>
-        <identifier>FCP_Khan_Negotiator</identifier>
+        <defName>FCP_Backstory_Khan_Negotiator</defName>
+        <identifier>FCP_Backstory_Khan_Negotiator</identifier>
         <slot>Adulthood</slot>
         <title>Khan Negotiator</title>
         <titleShort>Khan Negotiator</titleShort>
@@ -438,7 +437,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -449,8 +448,8 @@
     <!-- Khan Scout -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Scout</defName>
-        <identifier>FCP_Khan_Scout</identifier>
+        <defName>FCP_Backstory_Khan_Scout</defName>
+        <identifier>FCP_Backstory_Khan_Scout</identifier>
         <slot>Adulthood</slot>
         <title>Khan Scout</title>
         <titleShort>Khan Scout</titleShort>
@@ -463,7 +462,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -474,8 +473,8 @@
     <!-- Khan Ritualist -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Ritualist</defName>
-        <identifier>FCP_Khan_Ritualist</identifier>
+        <defName>FCP_Backstory_Khan_Ritualist</defName>
+        <identifier>FCP_Backstory_Khan_Ritualist</identifier>
         <slot>Adulthood</slot>
         <title>Khan Ritualist</title>
         <titleShort>Khan Ritualist</titleShort>
@@ -488,7 +487,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -499,8 +498,8 @@
    <!-- Khan Vengeful Survivor -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Vengeful_Survivor</defName>
-        <identifier>FCP_Khan_Vengeful_Survivor</identifier>
+        <defName>FCP_Backstory_Khan_Vengeful_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Vengeful_Survivor</identifier>
         <slot>Adulthood</slot>
         <title>Khan Vengeful Survivor</title>
         <titleShort>Khan Vengeful Survivor</titleShort>
@@ -513,7 +512,7 @@
         <workDisables>Caring</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -524,8 +523,8 @@
    <!-- Khan Forager -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Forager</defName>
-        <identifier>FCP_Khan_Forager</identifier>
+        <defName>FCP_Backstory_Khan_Forager</defName>
+        <identifier>FCP_Backstory_Khan_Forager</identifier>
         <slot>Adulthood</slot>
         <title>Khan Forager</title>
         <titleShort>Khan Forager</titleShort>
@@ -538,7 +537,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -549,8 +548,8 @@
    <!-- Khan Visionary -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Visionary</defName>
-        <identifier>FCP_Khan_Visionary</identifier>
+        <defName>FCP_Backstory_Khan_Visionary</defName>
+        <identifier>FCP_Backstory_Khan_Visionary</identifier>
         <slot>Adulthood</slot>
         <title>Khan Visionary</title>
         <titleShort>Khan Visionary</titleShort>
@@ -565,7 +564,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -576,8 +575,8 @@
    <!-- Khan Storyteller -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Storyteller</defName>
-        <identifier>FCP_Khan_Storyteller</identifier>
+        <defName>FCP_Backstory_Khan_Storyteller</defName>
+        <identifier>FCP_Backstory_Khan_Storyteller</identifier>
         <slot>Adulthood</slot>
         <title>Khan Storyteller</title>
         <titleShort>Khan Storyteller</titleShort>
@@ -590,7 +589,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -601,8 +600,8 @@
    <!-- Khan Guard -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Guard</defName>
-        <identifier>FCP_Khan_Guard</identifier>
+        <defName>FCP_Backstory_Khan_Guard</defName>
+        <identifier>FCP_Backstory_Khan_Guard</identifier>
         <slot>Adulthood</slot>
         <title>Khan Guard</title>
         <titleShort>Khan Guard</titleShort>
@@ -616,7 +615,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -627,8 +626,8 @@
    <!-- Khan Arena Fighter -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Arena_Fighter</defName>
-        <identifier>FCP_Khan_Arena_Fighter</identifier>
+        <defName>FCP_Backstory_Khan_Arena_Fighter</defName>
+        <identifier>FCP_Backstory_Khan_Arena_Fighter</identifier>
         <slot>Adulthood</slot>
         <title>Khan Arena Fighter</title>
         <titleShort>Khan Arena Fighter</titleShort>
@@ -642,7 +641,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans</li>
+            <li>FCP_Backstory_Khan</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -655,8 +654,8 @@
     <!-- Born Khan -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Born_Khan</defName>
-        <identifier>FCP_Khan_Born_Khan</identifier>
+        <defName>FCP_Backstory_Khan_Born_Khan</defName>
+        <identifier>FCP_Backstory_Khan_Born_Khan</identifier>
         <slot>Childhood</slot>
         <title>Born Khan</title>
         <titleShort>Born Khan</titleShort>
@@ -673,7 +672,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -682,8 +681,8 @@
     <!-- Khan Foundling -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Foundling</defName>
-        <identifier>FCP_Khan_Foundling</identifier>
+        <defName>FCP_Backstory_Khan_Foundling</defName>
+        <identifier>FCP_Backstory_Khan_Foundling</identifier>
         <slot>Childhood</slot>
         <title>Khan Foundling</title>
         <titleShort>Khan Foundling</titleShort>
@@ -697,7 +696,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -706,8 +705,8 @@
     <!-- Educated Khan -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Educated_Khan</defName>
-        <identifier>FCP_Khan_Educated_Khan</identifier>
+        <defName>FCP_Backstory_Khan_Educated_Khan</defName>
+        <identifier>FCP_Backstory_Khan_Educated_Khan</identifier>
         <slot>Childhood</slot>
         <title>Educated Khan</title>
         <titleShort>Educated Khan</titleShort>
@@ -720,7 +719,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -729,8 +728,8 @@
     <!-- Raid Survivor -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Raid_Survivor</defName>
-        <identifier>FCP_Khan_Raid_Survivor</identifier>
+        <defName>FCP_Backstory_Khan_Raid_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Raid_Survivor</identifier>
         <slot>Childhood</slot>
         <title>Raid Survivor</title>
         <titleShort>Raid Survivor</titleShort>
@@ -745,7 +744,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -754,8 +753,8 @@
     <!-- Khan Ruffian -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Ruffian</defName>
-        <identifier>FCP_Khan_Ruffian</identifier>
+        <defName>FCP_Backstory_Khan_Ruffian</defName>
+        <identifier>FCP_Backstory_Khan_Ruffian</identifier>
         <slot>Childhood</slot>
         <title>Khan Ruffian</title>
         <titleShort>Khan Ruffian</titleShort>
@@ -768,7 +767,7 @@
         <workDisables>Intellectual</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -777,8 +776,8 @@
     <!-- Young Herder -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Young_Herder</defName>
-        <identifier>FCP_Khan_Young_Herder</identifier>
+        <defName>FCP_Backstory_Khan_Young_Herder</defName>
+        <identifier>FCP_Backstory_Khan_Young_Herder</identifier>
         <slot>Childhood</slot>
         <title>Young Herder</title>
         <titleShort>Young Herder</titleShort>
@@ -791,7 +790,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -800,8 +799,8 @@
     <!-- Neglected Khan Child -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Neglected_Khan_Child</defName>
-        <identifier>FCP_Khan_Neglected_Khan_Child</identifier>
+        <defName>FCP_Backstory_Khan_Neglected_Khan_Child</defName>
+        <identifier>FCP_Backstory_Khan_Neglected_Khan_Child</identifier>
         <slot>Childhood</slot>
         <title>Neglected Khan Child</title>
         <titleShort>Neglected Khan Child</titleShort>
@@ -815,7 +814,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -824,8 +823,8 @@
     <!-- Khan Child Prodigy -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Child_Prodigy</defName>
-        <identifier>FCP_Khan_Child_Prodigy</identifier>
+        <defName>FCP_Backstory_Khan_Child_Prodigy</defName>
+        <identifier>FCP_Backstory_Khan_Child_Prodigy</identifier>
         <slot>Childhood</slot>
         <title>Khan Child Prodigy</title>
         <titleShort>Khan Child Prodigy</titleShort>
@@ -838,7 +837,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -847,8 +846,8 @@
     <!-- Tribal Survivor -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Tribal_Survivor</defName>
-        <identifier>FCP_Khan_Tribal_Survivor</identifier>
+        <defName>FCP_Backstory_Khan_Tribal_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Tribal_Survivor</identifier>
         <slot>Childhood</slot>
         <title>Tribal Survivor</title>
         <titleShort>Tribal Survivor</titleShort>
@@ -860,7 +859,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -869,8 +868,8 @@
     <!-- Khan Daredevil -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Daredevil</defName>
-        <identifier>FCP_Khan_Daredevil</identifier>
+        <defName>FCP_Backstory_Khan_Daredevil</defName>
+        <identifier>FCP_Backstory_Khan_Daredevil</identifier>
         <slot>Childhood</slot>
         <title>Khan Daredevil</title>
         <titleShort>Khan Daredevil</titleShort>
@@ -883,7 +882,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -892,8 +891,8 @@
     <!-- Warrior’s Child -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Warriors_Child</defName>
-        <identifier>FCP_Khan_Warriors_Child</identifier>
+        <defName>FCP_Backstory_Khan_Warriors_Child</defName>
+        <identifier>FCP_Backstory_Khan_Warriors_Child</identifier>
         <slot>Childhood</slot>
         <title>Warrior’s Child</title>
         <titleShort>Warrior’s Child</titleShort>
@@ -906,7 +905,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -915,8 +914,8 @@
     <!-- Khan Runt -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Runt</defName>
-        <identifier>FCP_Khan_Runt</identifier>
+        <defName>FCP_Backstory_Khan_Runt</defName>
+        <identifier>FCP_Backstory_Khan_Runt</identifier>
         <slot>Childhood</slot>
         <title>Khan Runt</title>
         <titleShort>Khan Runt</titleShort>
@@ -928,7 +927,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -937,8 +936,8 @@
     <!-- Idealistic Khan Youngling -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Idealistic_Khan_Youngling</defName>
-        <identifier>FCP_Khan_Idealistic_Khan_Youngling</identifier>
+        <defName>FCP_Backstory_Khan_Idealistic_Khan_Youngling</defName>
+        <identifier>FCP_Backstory_Khan_Idealistic_Khan_Youngling</identifier>
         <slot>Childhood</slot>
         <title>Idealistic Khan Youngling</title>
         <titleShort>Idealistic Khan Youngling</titleShort>
@@ -951,7 +950,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -960,8 +959,8 @@
    <!-- Roaming Khan Kid -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Roaming_Khan_Kid</defName>
-        <identifier>FCP_Khan_Roaming_Khan_Kid</identifier>
+        <defName>FCP_Backstory_Khan_Roaming_Khan_Kid</defName>
+        <identifier>FCP_Backstory_Khan_Roaming_Khan_Kid</identifier>
         <slot>Childhood</slot>
         <title>Roaming Khan Kid</title>
         <titleShort>Roaming Khan Kid</titleShort>
@@ -974,7 +973,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -983,8 +982,8 @@
    <!-- Khan Cave Dweller -->
 
     <BackstoryDef>
-        <defName>FCP_Khan_Cave_Dweller</defName>
-        <identifier>FCP_Khan_Cave_Dweller</identifier>
+        <defName>FCP_Backstory_Khan_Cave_Dweller</defName>
+        <identifier>FCP_Backstory_Khan_Cave_Dweller</identifier>
         <slot>Childhood</slot>
         <title>Khan Cave Dweller</title>
         <titleShort>Khan Cave Dweller</titleShort>
@@ -997,7 +996,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Great_Khans_Child</li>
+            <li>FCP_Backstory_Khan_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
