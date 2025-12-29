@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Traders __________-->
+
+    <!--_____ Great Khans Traders _____-->
+
+    <!--___ Khan Chem Dealer (Caravan) ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_Khan_Chem_Dealer</defName>
+        <label>Khan Chem Dealer</label>
+        <stockGenerators>
+
+            <!--__ Chems __-->
+
+            <!-- Vanilla Drugs -->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>5~10</thingDefCountRange>
+                <countRange>10~40</countRange>
+            </li>
+
+            <!-- Beer & Alcohol -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>20~60</countRange>
+            </li>
+
+            <!-- Smokeleaf -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>15~30</countRange>
+            </li>
+
+            <!-- Psychite Tea -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>PsychiteTea</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!-- Yayo -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Yayo</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+
+            <!-- Flake -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Flake</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+
+            <!-- Go-juice -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>GoJuice</thingDef>
+                <countRange>3~10</countRange>
+            </li>
+
+            <!-- Wake-up -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WakeUp</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <!-- Will buy raw materials for chem production -->
+
+            <li Class="StockGenerator_BuyCategory">
+                <category>PlantMatter</category>
+            </li>
+
+            <li Class="StockGenerator_BuyCategory">
+                <category>Medicine</category>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>400~800</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--___ Khan Chem Dealer (Base) ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Base_Khan_Chem_Dealer</defName>
+        <label>Khan Chem Dealer</label>
+        <stockGenerators>
+
+            <!--__ Chems __-->
+
+            <!-- Vanilla Drugs -->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>6~12</thingDefCountRange>
+                <countRange>15~50</countRange>
+            </li>
+
+            <!-- Beer & Alcohol -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>30~80</countRange>
+            </li>
+
+            <!-- Smokeleaf -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>20~40</countRange>
+            </li>
+
+            <!-- Psychite Tea -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>PsychiteTea</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <!-- Yayo -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Yayo</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Flake -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Flake</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Go-juice -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>GoJuice</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!-- Wake-up -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WakeUp</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Medicine __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>8~20</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <!-- Will buy raw materials for chem production -->
+
+            <li Class="StockGenerator_BuyCategory">
+                <category>PlantMatter</category>
+            </li>
+
+            <li Class="StockGenerator_BuyCategory">
+                <category>Medicine</category>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>600~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ FCP Great Khan Research __________-->
+
+    <!--_____ Great Khan Armory _____-->
+
+    <!-- Great Khan Armory -->
+
+    <ResearchProjectDef>
+        <defName>FCP_Research_Great_Khan_Armory</defName>
+        <label>Great Khan Armory</label>
+        <description>Research and develop the armor and equipment used by the Great Khans. Learn to craft their distinctive tribal armor, reinforced leathers, and elite gear that combines style with protection in the wasteland.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>ComplexClothing</li>
+            <li>Machining</li>
+        </prerequisites>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>2.00</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+</Defs>

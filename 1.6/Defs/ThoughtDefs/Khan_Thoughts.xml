@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Thought Defs __________-->
+
+    <!--_____ Great Khans Thoughts _____-->
+
+    <!-- Killed in Melee - Positive for Khans -->
+
+    <ThoughtDef>
+        <defName>FCP_Thought_Khan_KilledInMelee</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>6</durationDays>
+        <stackLimit>5</stackLimit>
+        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>killed in honorable combat</label>
+                <baseOpinionOffset>5</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

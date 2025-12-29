@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Factions __________-->
+
+    <!-- Great Khans -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_GreatKhans</defName>
+        <label>Great Khans</label>
+        <description>The Great Khans are a tribal raider society that traces its roots back to the pre-war biker gangs of California. Once one of the most powerful raider tribes in the wasteland, they have endured numerous conflicts with the NCR and other factions that have decimated their numbers. Despite their setbacks, the Khans remain proud and fiercely independent, refusing to bow to anyone. They have become experts at producing chems, which they trade for weapons and supplies. The Khans value strength, loyalty to the tribe, and the freedom to live as they choose - free from the laws and taxes of "civilized" societies. They are a nomadic people, living in yurts and tents that can be quickly packed up when it's time to move on.</description>
+        <colorSpectrum>
+            <li>(0.8, 0.1, 0.1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Khan</pawnSingular>
+        <pawnsPlural>Khans</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.5</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Papa Khan</leaderTitle>
+        <fixedLeaderKinds>
+            <li>FCP_Pawnkind_Khan_Advisor</li>
+        </fixedLeaderKinds>
+        <factionIconPath>World_Icon/FCP_GreatKhans_World_Icon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>Great Khans</fixedName>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_Khan</li>
+        </allowedCultures>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Khan Way</ideoName>
+        <ideoDescription>The Great Khans live by a code of strength, independence, and loyalty to the tribe. They reject the rules and restrictions of "civilized" society, preferring to take what they need and live free. The strong survive, the weak perish, and the tribe endures above all else.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Khan</li>
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Khan_Freedom</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Khan_Chemists</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+        </disallowedMemes>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <!-- Caravan Trader Kinds -->
+
+        <caravanTraderKinds>
+            <li>FCP_Caravan_Khan_Chem_Dealer</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
+        </caravanTraderKinds>
+
+        <!-- Vistor Trader Kinds -->
+
+        <visitorTraderKinds>
+            <li>FCP_Caravan_Khan_Chem_Dealer</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
+        </visitorTraderKinds>
+
+        <!-- Base Trader Kinds -->
+
+        <baseTraderKinds>
+            <li>FCP_Base_Khan_Chem_Dealer</li>
+            <li>Base_Outlander_Standard</li>
+        </baseTraderKinds>
+
+        <!-- Trader Kind Arrival Options -->
+
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_KhanRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+
+        <pawnGroupMakers>
+
+            <!-- Khan Raiding Party -->
+
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Pawnkind_Khan_Warrior>10</FCP_Pawnkind_Khan_Warrior>
+                    <FCP_Pawnkind_Khan_Veteran>5</FCP_Pawnkind_Khan_Veteran>
+                    <FCP_Pawnkind_Khan_Chem_Thrower>3</FCP_Pawnkind_Khan_Chem_Thrower>
+                    <FCP_Pawnkind_Khan_Enforcer>2</FCP_Pawnkind_Khan_Enforcer>
+                </options>
+            </li>
+
+            <!-- Khan Peaceful Visitors -->
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <FCP_Pawnkind_Khan_Warrior>8</FCP_Pawnkind_Khan_Warrior>
+                    <FCP_Pawnkind_Khan_Chem_Maker>5</FCP_Pawnkind_Khan_Chem_Maker>
+                    <FCP_Pawnkind_Khan_Veteran>3</FCP_Pawnkind_Khan_Veteran>
+                    <FCP_Pawnkind_Khan_Enforcer>1</FCP_Pawnkind_Khan_Enforcer>
+                </options>
+            </li>
+
+            <!-- Khan Traders -->
+
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <FCP_Pawnkind_Khan_Chem_Dealer>1</FCP_Pawnkind_Khan_Chem_Dealer>
+                </traders>
+                <carriers>
+                    <Muffalo>4</Muffalo>
+                    <Dromedary>3</Dromedary>
+                </carriers>
+                <guards>
+                    <FCP_Pawnkind_Khan_Warrior>8</FCP_Pawnkind_Khan_Warrior>
+                    <FCP_Pawnkind_Khan_Veteran>3</FCP_Pawnkind_Khan_Veteran>
+                    <FCP_Pawnkind_Khan_Enforcer>1</FCP_Pawnkind_Khan_Enforcer>
+                </guards>
+            </li>
+
+            <!-- Khan Settlement -->
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Pawnkind_Khan_Civilian>15</FCP_Pawnkind_Khan_Civilian>
+                    <FCP_Pawnkind_Khan_Warrior>10</FCP_Pawnkind_Khan_Warrior>
+                    <FCP_Pawnkind_Khan_Chem_Maker>5</FCP_Pawnkind_Khan_Chem_Maker>
+                    <FCP_Pawnkind_Khan_Veteran>3</FCP_Pawnkind_Khan_Veteran>
+                    <FCP_Pawnkind_Khan_Enforcer>2</FCP_Pawnkind_Khan_Enforcer>
+                    <FCP_Pawnkind_Khan_Advisor>1</FCP_Pawnkind_Khan_Advisor>
+                </options>
+            </li>
+        </pawnGroupMakers>
+		<modExtensions>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_Khan_Freedom</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Khan</memberName>
+                <adjective>Khan</adjective>
+            </li>
+		</modExtensions>        
+    </FactionDef>
+
+    <!--__________ Raid Loot Maker __________-->
+
+    <ThingSetMakerDef>
+        <defName>FCP_KhanRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>MedicineHerbal</li>
+                        <li>Beer</li>
+                        <li>SmokeleafJoint</li>
+                        <li>Yayo</li>
+                        <li>Flake</li>
+                        <li>WakeUp</li>
+                        <li>Pemmican</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

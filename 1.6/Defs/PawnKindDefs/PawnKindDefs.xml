@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Great Khan Pawnkinds _____-->
+
+    <!--___ Base ___-->
+
+    <PawnKindDef Name="FCP_KhankindBase" ParentName="FCP_WastelanderkindBase" Abstract="true">
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <chemicalAddictionChance>0.15</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--___ Leader ___-->
+
+    <!-- Khan Advisor -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Advisor</defName>
+        <label>Khan Advisor</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>150</combatPower>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>800~1200</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Leader</li>
+            <li>FCP_Khan_Warrior</li>
+            <li>FCP_Great_Khan_Elite</li>
+            <li>FCP_Great_Khan_Leader</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+        </apparelTags>
+        <weaponMoney>500~800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan_Advisor</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--___ Warriors ___-->
+
+    <!-- Khan Warrior -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Warrior</defName>
+        <label>Khan warrior</label>
+        <combatPower>65</combatPower>
+        <gearHealthRange>0.5~1.5</gearHealthRange>
+        <apparelMoney>300~600</apparelMoney>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Warrior</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>200~400</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Khan Veteran -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Veteran</defName>
+        <label>Khan veteran</label>
+        <combatPower>100</combatPower>
+        <gearHealthRange>0.6~1.8</gearHealthRange>
+        <apparelMoney>500~800</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Warrior</li>
+            <li>FCP_Khan_Veteran</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Soldier</li>
+            <li>FCP_Great_Khan_Helmet</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>350~600</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Advisor</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Khan Enforcer -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Enforcer</defName>
+        <label>Khan enforcer</label>
+        <combatPower>120</combatPower>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>600~1000</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Warrior</li>
+            <li>FCP_Khan_Enforcer</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Soldier</li>
+            <li>FCP_Great_Khan_Helmet</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>400~700</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>GunHeavy</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>16~27</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Advisor</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Khan Chem Thrower -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Chem_Thrower</defName>
+        <label>Khan chem thrower</label>
+        <combatPower>80</combatPower>
+        <gearHealthRange>0.5~1.5</gearHealthRange>
+        <apparelMoney>400~700</apparelMoney>
+        <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Warrior</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Great_Khan_Helmet</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>IncendiaryRanged</li>
+            <li>Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Chem_Maker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--___ Civilians ___-->
+
+    <!-- Khan Civilian -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Civilian</defName>
+        <label>Khan</label>
+        <combatPower>50</combatPower>
+        <gearHealthRange>0.4~1.2</gearHealthRange>
+        <apparelMoney>200~400</apparelMoney>
+        <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Civilian</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>100~300</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>MedievalMelee</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Khan Chem Maker -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Chem_Maker</defName>
+        <label>Khan chem maker</label>
+        <combatPower>40</combatPower>
+        <gearHealthRange>0.4~1.2</gearHealthRange>
+        <apparelMoney>200~400</apparelMoney>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Civilian</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>50~200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>SimpleGun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan_Chem_Maker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--___ Traders ___-->
+
+    <!-- Khan Chem Dealer -->
+
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Pawnkind_Khan_Chem_Dealer</defName>
+        <label>Khan chem dealer</label>
+        <trader>true</trader>
+        <combatPower>50</combatPower>
+        <gearHealthRange>0.5~1.3</gearHealthRange>
+        <apparelMoney>300~500</apparelMoney>
+        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Khan_Trader</li>
+            <li>FCP_Khan_Civilian</li>
+            <li>FCP_Great_Khan_Armor</li>
+            <li>FCP_Raider_Armor</li>
+        </apparelTags>
+        <weaponMoney>100~300</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li>SimpleGun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Khan_Chem_Runner</li>
+                    <li>FCP_Backstory_Khan_Chem_Maker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

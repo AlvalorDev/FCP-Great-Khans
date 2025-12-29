@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Khans ___-->
+
+    <!--__ Adults __-->
+
+    <!-- Chem Runner -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Chem_Runner</defName>
+        <identifier>FCP_Backstory_Khan_Chem_Runner</identifier>
+        <slot>Adulthood</slot>
+        <title>Chem Runner</title>
+        <titleShort>Chem Runner</titleShort>
+        <description>[PAWN_nameDef] was one of the few Khans of [PAWN_possessive] tribe who often spent extended periods of time far away from the camp. [PAWN_pronoun] was a chem runner, tasked with delivering the tribe’s products to their clients, be they raiders, doctors or caravan outfits. Due to the value of [PAWN_possessive] goods, [PAWN_nameDef] had to be shrewd and cunning to evade rival chem dealers, as well as desperate addicts looking for a fix.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Advisor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Advisor</defName>
+        <identifier>FCP_Backstory_Khan_Advisor</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Advisor</title>
+        <titleShort>Khan Advisor</titleShort>
+        <description>An esteemed and wise warrior, [PAWN_nameDef] was an advisor to the tribe’s leader. [PAWN_pronoun] was unusually level-headed for a Khan and advised against rushed and overly violent actions, which some of the younger warriors saw as a sign of weakness. Nevertheless, [PAWN_pronoun] was a more than capable warrior and always acted with the wellbeing of the tribe in mind.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>3</Melee>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Yurt Maker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Yurt_Maker</defName>
+        <identifier>FCP_Backstory_Khan_Yurt_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>Yurt Maker</title>
+        <titleShort>Yurt Maker</titleShort>
+        <description>Many Khans eschewed living in houses and preferred traditional tents called yurts or gers which, despite their size, could be quickly disassembled and transported in case of relocation. [PAWN_nameDef] was an expert at tailoring these tents from animal hides and scavenged fabrics. Their sturdiness was testament to [PAWN_possessive] skills and [PAWN_pronoun] was greatly valued by [PAWN_possessive] tribe.</description>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Legend Keeper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Legend_Keeper</defName>
+        <identifier>FCP_Backstory_Khan_Legend_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Legend Keeper</title>
+        <titleShort>Khan Legend Keeper</titleShort>
+        <description>While the Khans never were among the most culturally sophisticated people, they greatly valued their legends. [PAWN_nameDef] was a keeper of those legends and decorated walls and rocks near their camp with crude but colourful murals depicting the stories of mighty warriors, great victories and devastating losses of [PAWN_possessive] tribe.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>4</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Armorer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Armorer</defName>
+        <identifier>FCP_Backstory_Khan_Armorer</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Armorer</title>
+        <titleShort>Khan Armorer</titleShort>
+        <description>[PAWN_nameDef] was an armorer with the Khans and was tasked with maintaining the tribe’s weapons and armor. The Khans were a poor tribe and had little access to high-end weapons or armor, but [PAWN_nameDef] was resourceful and managed to create descent armor from hides and scraps of scavenged metal.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Mining>2</Mining>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Chem Maker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Chem_Maker</defName>
+        <identifier>FCP_Backstory_Khan_Chem_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Chem Maker</title>
+        <titleShort>Khan Chem Maker</titleShort>
+        <description>[PAWN_nameDef] was a gifted chemist and an important member of [PAWN_possessive] tribe, as [PAWN_possessive] chems proved to be a reliable source of income for the otherwise poor and isolated group. While most Khans didn’t concern themselves with intellectual pursuits, [PAWN_nameDef] was always on the lookout for old books to learn new tricks to perfect [PAWN_possessive] trade.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Medicine>3</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Hunter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Hunter</defName>
+        <identifier>FCP_Backstory_Khan_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Hunter</title>
+        <titleShort>Khan Hunter</titleShort>
+        <description>[PAWN_nameDef] was a hunter with the Great Khans. Hunting the usually very dangerous beasts of the wasteland was seen as the second most respected task, just short of being a warrior. [PAWN_nameDef] was a skilled shot and knew how to live off the land for extended periods of time while [PAWN_pronoun] prowled through the wasteland on the lookout for worthwhile quarry to feed [PAWN_possessive] tribe.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Cooking>2</Cooking>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Firekeeper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Firekeeper</defName>
+        <identifier>FCP_Backstory_Khan_Firekeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Firekeeper</title>
+        <titleShort>Khan Firekeeper</titleShort>
+        <description>[PAWN_nameDef] never was among the most skilled fighters in the Khans. [PAWN_pronoun] was tasked with keeping the fires in the tribe’s camp going, looking after the wounded and sick and preparing the tribe’s meals. As the Khans had little access to advanced medicine, [PAWN_nameDef] learned to make do with the herbs that grew around the camp.</description>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Plants>3</Plants>
+            <Medicine>4</Medicine>
+            <Shooting>-2</Shooting>
+            <Melee>-2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- War Party Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_War_Party_Leader</defName>
+        <identifier>FCP_Backstory_Khan_War_Party_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>War Party Leader</title>
+        <titleShort>War Party Leader</titleShort>
+        <description>As one of the tribe’s most capable fighters, [PAWN_nameDef] was leading the war parties which often roamed the camp’s surroundings on the lookout for caravans to waylay or promising ruins to scavenge. [PAWN_pronoun] was beloved by the fighting men and women of the tribe, not only because of [PAWN_possessive] valour, but for [PAWN_possessive] genuine concern and care for all that fought by [PAWN_possessive] side.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Herder -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Herder</defName>
+        <identifier>FCP_Backstory_Khan_Herder</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Herder</title>
+        <titleShort>Khan Herder</titleShort>
+        <description>As the Khans were expelled from the relatively fertile lands of California, they had to adapt to new, harsher environments where agriculture was rarely possible and was soon replaced entirely by pastoralism. [PAWN_nameDef] was a herder among the Khans, watching the tribes bighorners and brahmin on which they greatly depended for food, hides and dung for fuel and chem production. It wasn’t the most honourable task, but [PAWN_nameDef] was content to do [PAWN_possessive] part.</description>
+        <skillGains>
+            <Plants>1</Plants>
+            <Animals>4</Animals>
+            <Crafting>2</Crafting>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Labourer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Labourer</defName>
+        <identifier>FCP_Backstory_Khan_Labourer</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Labourer</title>
+        <titleShort>Khan Labourer</titleShort>
+        <description>[PAWN_nameDef] was a member of the Great Khans but showed little aptitude for the tribe’s preferred activities, namely fighting, hunting and the production and distribution of drugs. Instead, [PAWN_pronoun] was put to work in areas other Khans couldn’t or wouldn’t do.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>4</Mining>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Poet -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Poet</defName>
+        <identifier>FCP_Backstory_Khan_Poet</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Poet</title>
+        <titleShort>Khan Poet</titleShort>
+        <description>[PAWN_nameDef] was an oddity among the Great Khans, as [PAWN_pronoun] showed little interest in combat and the telling of stories about great deeds. Instead, [PAWN_pronoun] preferred to write poetry of debatable quality, something that made [PAWN_objective] a preferred target to the other Khans’ mockery.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>6</Artistic>
+            <Intellectual>2</Intellectual>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>Violence</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Mercenary -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Mercenary</defName>
+        <identifier>FCP_Backstory_Khan_Mercenary</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Mercenary</title>
+        <titleShort>Khan Mercenary</titleShort>
+        <description>Due to the tribe’s notorious shortage of caps, some sought work outside of the camp as mercenaries, to send part of the caps back home. [PAWN_nameDef] was one of them and the Khan’s fearsome reputation as brutal savages meant there was no shortage of work, albeit [PAWN_pronoun] often ended up getting tricked by [PAWN_possessive] employers.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>1</Melee>
+            <Medicine>2</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Wastelanders</li>
+            <li>FCP_Backstory_Mercenaries</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Trader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Trader</defName>
+        <identifier>FCP_Backstory_Khan_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Trader</title>
+        <titleShort>Khan Trader</titleShort>
+        <description>[PAWN_nameDef] was a Khan and an unusual one at that, since [PAWN_pronoun] was a trader. Bartering for things instead of simply taking them by force became necessary, since the tribe tried to avoid the attention and ire of the NCR. The tribe had few things to spare, but the hides of animals usually fetched a good enough price for [PAWN_nameDef] to buy much needed goods usually water, ammo and foodstuffs.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>5</Social>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+            <li>FCP_Backstory_Khan_Trader</li>
+            <li>FCP_Backstory_Wastelanders</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Savage -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Savage</defName>
+        <identifier>FCP_Backstory_Khan_Savage</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Savage</title>
+        <titleShort>Khan Savage</titleShort>
+        <description>Brawny and simple-minded, [PAWN_nameDef] was a walking stereotype of a Khan. [PAWN_pronoun] enjoyed brawls, drinking, telling exaggerated stories and little else. While [PAWN_pronoun] might not have been the brightest person to ever wander the wasteland, [PAWN_pronoun] sure could punch hard.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Mining>3</Mining>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Warrior -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Warrior</defName>
+        <identifier>FCP_Backstory_Khan_Warrior</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Warrior</title>
+        <titleShort>Khan Warrior</titleShort>
+        <description>Tough and resilient, [PAWN_nameDef] was a warrior with the Great Khans. [PAWN_pronoun] often joined the tribe’s war parties on their raids through the wasteland and hoped to bring back valuables and much needed supplies for the tribe, either scavenged from ruins or taken off of some unfortunate caravan.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>5</Melee>
+            <Construction>3</Construction>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Negotiator -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Negotiator</defName>
+        <identifier>FCP_Backstory_Khan_Negotiator</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Negotiator</title>
+        <titleShort>Khan Negotiator</titleShort>
+        <description>While they essentially still were raiders, the Khans were always on the lookout for allies to aid them in their struggle against the NCR. [PAWN_nameDef] was well-spoken and refined (for a Khan anyway) and was often tasked with negotiations, be they military alliances or trade agreements.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Scout -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Scout</defName>
+        <identifier>FCP_Backstory_Khan_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Scout</title>
+        <titleShort>Khan Scout</titleShort>
+        <description>The Great Khans had a propensity for paranoia, which was no surprise considering their recent history. [PAWN_nameDef] served [PAWN_possessive] tribe as a scout and was permanently on the lookout for potential enemies, such as NCR patrols, around the camp. While [PAWN_pronoun] was an adequate fighter, [PAWN_pronoun] knew very well that the Khans lacked both numbers and training to put up a real fight against the NCR.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>1</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Ritualist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Ritualist</defName>
+        <identifier>FCP_Backstory_Khan_Ritualist</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Ritualist</title>
+        <titleShort>Khan Ritualist</titleShort>
+        <description>While the Great Khans were by no means religious people, there were rituals and traditions they held dear. [PAWN_nameDef] was charged with overseeing the tribe’s brutal rites of initiation and patching up those who survived it, as well as conducting ancestor worship rituals, usually composed of commemorative feasts.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Medicine>4</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Vengeful Survivor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Vengeful_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Vengeful_Survivor</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Vengeful Survivor</title>
+        <titleShort>Khan Vengeful Survivor</titleShort>
+        <description>The Khans’ history was filled with tragedies and disasters, most importantly the massacre at Bitter Springs. Some Khans tried to suppress these memories with drugs and booze while others, among them [PAWN_nameDef], became vicious killers with no goal or long-term plan but vengeance. While most Khans went on living as well as they could, [PAWN_possessive] thoughts were with the many dead the tribe had to mourn and [PAWN_nameDef] was determined to answer in kind.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Forager -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Forager</defName>
+        <identifier>FCP_Backstory_Khan_Forager</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Forager</title>
+        <titleShort>Khan Forager</titleShort>
+        <description>Most Great Khan encampments were located in barren and isolated areas where agriculture proved to be difficult. However, many plants grew even in the most desolate places and many of them were edible or otherwise useful to the tribe. [PAWN_nameDef] was tasked with finding and gathering these plants.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Cooking>2</Cooking>
+            <Plants>3</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Visionary -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Visionary</defName>
+        <identifier>FCP_Backstory_Khan_Visionary</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Visionary</title>
+        <titleShort>Khan Visionary</titleShort>
+        <description>While many Khans were dissatisfied with the tribe’s current situation, few had ideas on how to change it. [PAWN_nameDef] was one of those Khans who dreamed of greatness. [PAWN_pronoun] wanted to lead them out of their desolate hideouts and into the wilderness of the north to carve out an empire of their own. Of course, not all of the notoriously stubborn Khans were enthusiastic about [PAWN_possessive] ideas.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+            <Intellectual>3</Intellectual>
+            <Social>-1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Storyteller -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Storyteller</defName>
+        <identifier>FCP_Backstory_Khan_Storyteller</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Storyteller</title>
+        <titleShort>Khan Storyteller</titleShort>
+        <description>Among the few things the Khans enjoyed greatly that weren’t linked to violence or intoxication was the telling of often exaggerated stories. While most Khans did this to some degree, [PAWN_nameDef] made an artform of it. [PAWN_pronoun] was so good at it that few of [PAWN_possessive] tribespeople cared about the fact that most of them weren’t even remotely based on true events.</description>
+        <skillGains>
+            <Cooking>1</Cooking>
+            <Artistic>3</Artistic>
+            <Social>5</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Guard -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Guard</defName>
+        <identifier>FCP_Backstory_Khan_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Guard</title>
+        <titleShort>Khan Guard</titleShort>
+        <description>As one of the tribe’s most elite fighters, [PAWN_nameDef] was assigned as a personal guard to Papa Khan, the Khan’s undisputed leader. [PAWN_pronoun] took [PAWN_possessive] this duty extremely serious, despite the fact that only a madman would dare to attack Papa Khan amidst a Khan camp. However, [PAWN_possessive] privileged position made [PAWN_objective] somewhat haughty towards the other members of the tribe and [PAWN_pronoun] was usually not well-liked.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>4</Melee>
+            <Medicine>2</Medicine>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Arena Fighter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Arena_Fighter</defName>
+        <identifier>FCP_Backstory_Khan_Arena_Fighter</identifier>
+        <slot>Adulthood</slot>
+        <title>Khan Arena Fighter</title>
+        <titleShort>Khan Arena Fighter</titleShort>
+        <description>Most Great Khan camps featured a prominent arena, usually in the centre of it. These were used to carry out the brutal initiation ritual of the tribe but were also used for “recreational” purposes. [PAWN_nameDef] was one of the most eager combatants of the arena and made a small fortune by betting on [PAWN_objective]self. While [PAWN_pronoun] wasn’t a very good shot, few Khans could match [PAWN_objective] in close combat.</description>
+        <skillGains>
+            <Shooting>-3</Shooting>
+            <Melee>5</Melee>
+            <Crafting>3</Crafting>
+            <Medicine>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Born Khan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Born_Khan</defName>
+        <identifier>FCP_Backstory_Khan_Born_Khan</identifier>
+        <slot>Childhood</slot>
+        <title>Born Khan</title>
+        <titleShort>Born Khan</titleShort>
+        <description>[PAWN_nameDef] was born into the raider tribe of the Great Khans. While [PAWN_pronoun] might not have had much of a formalized education, [PAWN_pronoun] learned much about the land the gang resided on.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Crafting>1</Crafting>
+            <Artistic>-2</Artistic>
+            <Intellectual>-2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Foundling -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Foundling</defName>
+        <identifier>FCP_Backstory_Khan_Foundling</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Foundling</title>
+        <titleShort>Khan Foundling</titleShort>
+        <description>[PAWN_nameDef] was an abandoned child found and taken in by a group of Khans. While [PAWN_pronoun] might not have been born a Khan, [PAWN_pronoun] certainly grew up to become one.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>1</Melee>
+            <Cooking>2</Cooking>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Educated Khan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Educated_Khan</defName>
+        <identifier>FCP_Backstory_Khan_Educated_Khan</identifier>
+        <slot>Childhood</slot>
+        <title>Educated Khan</title>
+        <titleShort>Educated Khan</titleShort>
+        <description>[PAWN_nameDef] was one of the few Khan children who were educated by a group of traveling Followers of the Apocalypse. The followers taught [PAWN_objective] how to read and write as well as some basics of natural sciences and humanities. While this might not have counted for much in other societies, it made [PAWN_nameDef] one of the most well-read members of the tribe.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Raid Survivor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Raid_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Raid_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>Raid Survivor</title>
+        <titleShort>Raid Survivor</titleShort>
+        <description>[PAWN_nameDef] was one of the few survivors of a Great Khan raid. While the Khans were aptly known as savage fighters, they usually did not kill children. [PAWN_nameDef] was spared and instead taken into the tribe as one of their own. [PAWN_pronoun] was well accepted but nevertheless harboured a grudge against those who murdered [PAWN_possessive] family.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Cooking>2</Cooking>
+            <Crafting>2</Crafting>
+            <Medicine>1</Medicine>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Ruffian -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Ruffian</defName>
+        <identifier>FCP_Backstory_Khan_Ruffian</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Ruffian</title>
+        <titleShort>Khan Ruffian</titleShort>
+        <description>[PAWN_nameDef] was well-suited for the life of a Khan. [PAWN_pronoun] was prone to rowdy behaviour and quickly became somewhat of a leader for the tribe’s children. What [PAWN_pronoun] lacked in intellect, [PAWN_pronoun] made up for with cunning and many foresaw [PAWN_objective] a future as a great warrior.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Crafting>2</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Young Herder -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Young_Herder</defName>
+        <identifier>FCP_Backstory_Khan_Young_Herder</identifier>
+        <slot>Childhood</slot>
+        <title>Young Herder</title>
+        <titleShort>Young Herder</titleShort>
+        <description>The Khans never were among the most affluent groups of the wasteland. As such even the younger children usually had to help the tribe survive in the harsh wastes they called home. [PAWN_nameDef] assisted the tribe’s herders and looked after the bighorners and brahmins which they greatly depended on.</description>
+        <skillGains>
+            <Melee>1</Melee>
+            <Animals>3</Animals>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Neglected Khan Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Neglected_Khan_Child</defName>
+        <identifier>FCP_Backstory_Khan_Neglected_Khan_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Neglected Khan Child</title>
+        <titleShort>Neglected Khan Child</titleShort>
+        <description>Not all Khans were well-suited as parents. Many were avid users of narcotics and neglected their children. [PAWN_nameDef] parents were usually drunk or high and even when not cared little about their offspring. [PAWN_pronoun] had to fend for [PAWN_objective]self from a very young age and consequently disliked to depend on others even as an adult.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Cooking>2</Cooking>
+            <Crafting>2</Crafting>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Child Prodigy -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Child_Prodigy</defName>
+        <identifier>FCP_Backstory_Khan_Child_Prodigy</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Child Prodigy</title>
+        <titleShort>Khan Child Prodigy</titleShort>
+        <description>Since the Khans rarely had access to high-tech workshops, children like [PAWN_nameDef] who had a natural aptitude maintaining machines and weaponry were usually fostered and trained by the tribe’s armourers.</description>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Artistic>1</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Tribal Survivor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Tribal_Survivor</defName>
+        <identifier>FCP_Backstory_Khan_Tribal_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>Tribal Survivor</title>
+        <titleShort>Tribal Survivor</titleShort>
+        <description>As a child [PAWN_nameDef] was a survivor of a tribe eradicated by a ruthless group of raiders. [PAWN_pronoun] was found and taken in by a group of Khans who happened upon the smouldering ruins of [PAWN_possessive] village. [PAWN_possessive] tribal knowledge about the plants and animals of the wasteland served the Khans well.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>4</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Daredevil -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Daredevil</defName>
+        <identifier>FCP_Backstory_Khan_Daredevil</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Daredevil</title>
+        <titleShort>Khan Daredevil</titleShort>
+        <description>The Great Khans relaxed attitude towards their offspring’s upbringing often led to risky or outright dangerous games and activities the children participated in. [PAWN_nameDef] was known as one of the most daring children of [PAWN_possessive] tribe. [PAWN_pronoun] greatly enjoyed taunting tribe’s bighorners and similar games of questionable pedagogic value.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Warrior’s Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Warriors_Child</defName>
+        <identifier>FCP_Backstory_Khan_Warriors_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Warrior’s Child</title>
+        <titleShort>Warrior’s Child</titleShort>
+        <description>[PAWN_nameDef] was the child of one of the tribe’s greatest warriors. [PAWN_pronoun] tried to emulate [PAWN_possessive] parent, much to the pride of [PAWN_possessive] progenitor.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Khan Runt -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Runt</defName>
+        <identifier>FCP_Backstory_Khan_Runt</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Runt</title>
+        <titleShort>Khan Runt</titleShort>
+        <description>[PAWN_nameDef] was born small and weak. Few Khan Children with these attributes survive their early childhood, either because of the harsh living conditions or because they are killed outright since a weak child would not survive the brutal initiation rites anyway. [PAWN_nameDef], however, endured and even prospered, a testament to [PAWN_possessive] tenacity.</description>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Idealistic Khan Youngling -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Idealistic_Khan_Youngling</defName>
+        <identifier>FCP_Backstory_Khan_Idealistic_Khan_Youngling</identifier>
+        <slot>Childhood</slot>
+        <title>Idealistic Khan Youngling</title>
+        <titleShort>Idealistic Khan Youngling</titleShort>
+        <description>[PAWN_nameDef] was born long after the glory days of the Great Khans and, like many other, longed for the times when the wasteland trembled in fear before them. [PAWN_pronoun] sought to claim the tribe’s legacy, no matter the cost.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Roaming Khan Kid -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Roaming_Khan_Kid</defName>
+        <identifier>FCP_Backstory_Khan_Roaming_Khan_Kid</identifier>
+        <slot>Childhood</slot>
+        <title>Roaming Khan Kid</title>
+        <titleShort>Roaming Khan Kid</titleShort>
+        <description>As a Child with the Khans, [PAWN_nameDef] spent most of [PAWN_possessive] time roaming through the lands surrounding their camps and [PAWN_pronoun] learned much about the plants and beasts that inhabited the wasteland from the elders.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+   <!-- Khan Cave Dweller -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Khan_Cave_Dweller</defName>
+        <identifier>FCP_Backstory_Khan_Cave_Dweller</identifier>
+        <slot>Childhood</slot>
+        <title>Khan Cave Dweller</title>
+        <titleShort>Khan Cave Dweller</titleShort>
+        <description>While most Khans preferred to live in yurts, many built their camps near caves. While this might seem primitive, even for the Khans, natural caves made easily defendable homes and were usually much less prone to collapse compared to pre-war ruins. [PAWN_nameDef] grew up in and around an extensive cave system and helped expand it, if needed.</description>
+        <skillGains>
+            <Melee>1</Melee>
+            <Construction>1</Construction>
+            <Mining>4</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_Khan_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+</Defs>
