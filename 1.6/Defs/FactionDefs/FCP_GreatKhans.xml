@@ -179,6 +179,21 @@
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
+            <!-- Make them hostile to the NCR -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="altushka.boscompendium">FCP_Faction_NCR</li>
+                </hostileFactionDefs>
+            </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
             <!-- Ideology stuff -->
             <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Khan_Freedom</ideoIconDef>
