@@ -305,7 +305,7 @@
             <Intellectual>2</Intellectual>
             <Social>-2</Social>
         </skillGains>
-        <workDisables>Violence</workDisables>
+        <workDisables>Violent</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Khan</li>
@@ -636,7 +636,7 @@
             <Shooting>-3</Shooting>
             <Melee>5</Melee>
             <Crafting>3</Crafting>
-            <Medicine>2</Social>
+            <Medicine>2</Medicine>
         </skillGains>
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>

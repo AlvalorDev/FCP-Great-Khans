@@ -9,7 +9,7 @@
         <defName>FCP_Meme_Khan_Freedom</defName>
         <label>Khan Freedom</label>
         <description>The Great Khans reject the chains of "civilized" society - no laws, no taxes, no rulers except the strongest among them. They value personal freedom above all else, but with that freedom comes responsibility to the tribe. Strength is respected, weakness is despised, and loyalty to your brothers and sisters is sacred. The Khans don't apologize for taking what they need - the wasteland belongs to those strong enough to claim it.</description>
-        <iconPath>World_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>3</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -18,21 +18,20 @@
             <li><li>Cannibalism_Disapproved</li></li>
             <li><li>Corpses_DontCare</li></li>
             <li><li>Lovin_Free</li></li>
-            <li><li>MarriageName_EitherSpouse</li></li>
-            <li><li>SpouseCount_Unlimited</li></li>
-            <li><li>Charity_DontCare</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_Unlimited</li></li>
+            <li><li>SpouseCount_Female_Unlimited</li></li>
+            <li><li>Charity_Worthwhile</li></li>
             <li><li>DrugUse_MedicalOrSocial</li></li>
             <li><li>IdeoDiversity_Disapproved</li></li>
-            <li><li>Nudity_Male_CoveringAnythingButGroinAndChestOkay</li></li>
-            <li><li>Nudity_Female_CoveringAnythingButGroinOkay</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
             <li><li>OrganUse_Acceptable</li></li>
             <li><li>Execution_DontCare</li></li>
             <li><li>Skullspike_Desired</li></li>
             <li><li>Slavery_Acceptable</li></li>
             <li><li>Blinding_Horrible</li></li>
-            <li><li>Scarification_Respected</li></li>
-            <li><li>FCP_Precept_Khan_Strength</li></li>
-            <li><li>FCP_Precept_Khan_Independence</li></li>
+            <li><li>Scarification_Horrible</li></li>
         </requireOne>
         <requiredRituals>
             <li>
@@ -48,7 +47,7 @@
         <defName>FCP_Meme_Khan_Chemists</defName>
         <label>Khan Chemists</label>
         <description>The Great Khans have perfected the art of chem production. Their chemists are revered members of the tribe, responsible for creating the drugs that fund the Khan's operations. A skilled chem maker is worth their weight in silver, and their knowledge is passed down through generations.</description>
-        <iconPath>Things/UI/Roles/FCP_Khan_Chemist</iconPath>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
@@ -60,47 +59,6 @@
         </requireOne>
     </MemeDef>
 
-    <!--__________ Precepts __________-->
-
-    <!-- Khan Strength -->
-
-    <PreceptDef>
-        <defName>FCP_Precept_Khan_Strength</defName>
-        <issue>Violence</issue>
-        <label>strength above all</label>
-        <description>The strong survive, the weak perish. This is the law of the wasteland, and the Khans embrace it fully. Strength in combat, strength in survival, strength in will - these are what matter.</description>
-        <impact>High</impact>
-        <displayOrderInIssue>100</displayOrderInIssue>
-        <displayOrderInImpact>1000</displayOrderInImpact>
-        <defaultSelectionWeight>1</defaultSelectionWeight>
-        <canUseAlreadyUsedThingDef>false</canUseAlreadyUsedThingDef>
-        <conflictingMemes>
-            <li>Pacifism</li>
-        </conflictingMemes>
-        <comps>
-            <li Class="PreceptComp_SituationalThought">
-                <thought>FCP_Thought_Khan_KilledInMelee</thought>
-            </li>
-        </comps>
-    </PreceptDef>
-
-    <!-- Khan Independence -->
-
-    <PreceptDef>
-        <defName>FCP_Precept_Khan_Independence</defName>
-        <issue>Authority</issue>
-        <label>Khan independence</label>
-        <description>The Khans bow to no one but Papa Khan. We live free, take what we need, and answer to no government or law. The NCR's taxes and rules are chains we refuse to wear.</description>
-        <impact>High</impact>
-        <displayOrderInIssue>100</displayOrderInIssue>
-        <displayOrderInImpact>1000</displayOrderInImpact>
-        <defaultSelectionWeight>1</defaultSelectionWeight>
-        <canUseAlreadyUsedThingDef>false</canUseAlreadyUsedThingDef>
-        <conflictingMemes>
-            <li>Loyalist</li>
-        </conflictingMemes>
-    </PreceptDef>
-
     <!--__________ Roles __________-->
 
     <!-- Khan Chemist -->
@@ -109,8 +67,8 @@
         <defName>FCP_IdeoRole_Khan_Chemist</defName>
         <label>Khan Chemist</label>
         <description>Khan chemists are the lifeblood of the tribe's economy. They produce the chems that the Khans trade for weapons, supplies, and respect. A master chemist is valued as highly as the tribe's greatest warriors.</description>
-        <iconPath>Things/UI/Roles/FCP_Khan_Chemist</iconPath>
-        <nameMaker>NamerRoleIntellectual</nameMaker>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <nameMaker>NamerRoleProductionSpecialist</nameMaker>
         <roleRequirements>
             <li Class="RoleRequirement_MinSkillAny">
                 <skills>

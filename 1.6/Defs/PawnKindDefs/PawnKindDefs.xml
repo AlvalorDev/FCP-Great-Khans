@@ -52,14 +52,24 @@
         <weaponMoney>500~800</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li>MedievalMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+            <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed_Advanced</li>
         </weaponTags>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan_Advisor</li>
+                    <li>FCP_Backstory_Khan</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -85,10 +95,19 @@
         <weaponMoney>200~400</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li>MedievalMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
+            <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                 </categoriesAdulthood>
@@ -116,12 +135,23 @@
         <weaponMoney>350~600</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li>MedievalMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+            <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed</li>
         </weaponTags>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                     <li>FCP_Backstory_Khan_Advisor</li>
@@ -151,12 +181,21 @@
         <weaponTags>
             <li>Gun</li>
             <li>GunHeavy</li>
-            <li>MedievalMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_HeavyWeapon</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
+            <li MayRequire="Rick.FCP.UnarmedWeapons">FCP_Unarmed_Advanced</li>
         </weaponTags>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>16~27</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                     <li>FCP_Backstory_Khan_Advisor</li>
@@ -184,9 +223,16 @@
         <weaponTags>
             <li>IncendiaryRanged</li>
             <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                     <li>FCP_Backstory_Khan_Chem_Maker</li>
@@ -214,7 +260,9 @@
         <weaponMoney>100~300</weaponMoney>
         <weaponTags>
             <li>Gun</li>
-            <li>MedievalMelee</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -244,9 +292,15 @@
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan_Chem_Maker</li>
                 </categoriesAdulthood>
@@ -276,9 +330,16 @@
         <weaponTags>
             <li>Gun</li>
             <li>SimpleGun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan</li>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelanders</li>
+                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Khan_Chem_Runner</li>
                     <li>FCP_Backstory_Khan_Chem_Maker</li>

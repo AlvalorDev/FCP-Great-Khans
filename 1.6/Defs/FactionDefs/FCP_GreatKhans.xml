@@ -10,13 +10,13 @@
         <label>Great Khans</label>
         <description>The Great Khans are a tribal raider society that traces its roots back to the pre-war biker gangs of California. Once one of the most powerful raider tribes in the wasteland, they have endured numerous conflicts with the NCR and other factions that have decimated their numbers. Despite their setbacks, the Khans remain proud and fiercely independent, refusing to bow to anyone. They have become experts at producing chems, which they trade for weapons and supplies. The Khans value strength, loyalty to the tribe, and the freedom to live as they choose - free from the laws and taxes of "civilized" societies. They are a nomadic people, living in yurts and tents that can be quickly packed up when it's time to move on.</description>
         <colorSpectrum>
-            <li>(0.8, 0.1, 0.1)</li>
+            <li>(1, 1, 1)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
         <pawnSingular>Khan</pawnSingular>
         <pawnsPlural>Khans</pawnsPlural>
         <categoryTag>Outlander</categoryTag>
-        <settlementGenerationWeight>0.5</settlementGenerationWeight>
+        <settlementGenerationWeight>0.15</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
@@ -24,10 +24,10 @@
         <fixedLeaderKinds>
             <li>FCP_Pawnkind_Khan_Advisor</li>
         </fixedLeaderKinds>
-        <factionIconPath>World_Icon/FCP_GreatKhans_World_Icon</factionIconPath>
+        <factionIconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
         <fixedName>Great Khans</fixedName>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <settlementNameMaker>FCP_Namer_Settlement_Great_Khan</settlementNameMaker>
         <allowedCultures>
             <li>FCP_Culture_Khan</li>
         </allowedCultures>
@@ -49,7 +49,6 @@
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
         <disallowedMemes>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Pacifism</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
         </disallowedMemes>
 
@@ -178,6 +177,7 @@
                 </options>
             </li>
         </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
             <!-- Ideology stuff -->
             <li Class="FCP.Core.ModExtension_FixedIdeo">
@@ -185,6 +185,19 @@
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Khan</memberName>
                 <adjective>Khan</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <newName>Great Khan</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Khan Storyteller</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
             </li>
 		</modExtensions>        
     </FactionDef>

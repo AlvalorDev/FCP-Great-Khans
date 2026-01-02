@@ -21,7 +21,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Great_Khan/Simple_Armor/FCP_Great_Khan_Simple_Armor</texPath>
+            <texPath>Apparel/Great_Khan_Simple_Armor/FCP_Great_Khan_Simple_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
             <color>(255,255,255)</color>
@@ -50,7 +50,7 @@
                 <li>Torso</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/Great_Khan/Simple_Armor/FCP_Great_Khan_Simple_Armor</wornGraphicPath>
+            <wornGraphicPath>Apparel/Great_Khan_Simple_Armor/FCP_Great_Khan_Simple_Armor</wornGraphicPath>
             <layers>
                 <li>Middle</li>
             </layers>
@@ -89,7 +89,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Great_Khan/Soldier_Armor/FCP_Great_Khan_Soldier_Armor</texPath>
+            <texPath>Apparel/Great_Khan_Soldier_Armor/FCP_Great_Khan_Soldier_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
             <color>(255,255,255)</color>
@@ -120,7 +120,7 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/Great_Khan/Soldier_Armor/FCP_Great_Khan_Soldier_Armor</wornGraphicPath>
+            <wornGraphicPath>Apparel/Great_Khan_Soldier_Armor/FCP_Great_Khan_Soldier_Armor</wornGraphicPath>
             <layers>
                 <li>Middle</li>
                 <li>Shell</li>
@@ -138,7 +138,7 @@
         </tradeTags>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Uncommon</rarity>
+                <rarity>Rare</rarity>
             </li>
         </comps>
     </ThingDef>
@@ -161,7 +161,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Great_Khan/Helmet/FCP_Great_Khan_Helmet</texPath>
+            <texPath>Apparel/Great_Khan_Helmet/FCP_Great_Khan_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.9</drawSize>
             <color>(255,255,255)</color>
@@ -189,7 +189,7 @@
             <bodyPartGroups>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/Great_Khan/Helmet/FCP_Great_Khan_Helmet</wornGraphicPath>
+            <wornGraphicPath>Apparel/Great_Khan_Helmet/FCP_Great_Khan_Helmet</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
@@ -228,7 +228,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Great_Khan/Armored_Leathers/FCP_Great_Khan_Armored_Leathers</texPath>
+            <texPath>Apparel/Great_Khan_Armored_Leather/FCP_Great_Khan_Armored_Leather</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
             <color>(255,255,255)</color>
@@ -259,7 +259,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/Great_Khan/Armored_Leathers/FCP_Great_Khan_Armored_Leathers</wornGraphicPath>
+            <wornGraphicPath>Apparel/Great_Khan_Armored_Leather/FCP_Great_Khan_Armored_Leather</wornGraphicPath>
             <layers>
                 <li>Middle</li>
             </layers>
@@ -299,7 +299,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/Great_Khan/Suit_Armor/FCP_Great_Khan_Suit_Armor</texPath>
+            <texPath>Apparel/Great_Khan_Suit_Armor/FCP_Great_Khan_Suit_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -330,7 +330,7 @@
                 <li>Shoulders</li>
                 <li>Arms</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/Great_Khan/Suit_Armor/FCP_Great_Khan_Suit_Armor</wornGraphicPath>
+            <wornGraphicPath>Apparel/Great_Khan_Suit_Armor/FCP_Great_Khan_Suit_Armor</wornGraphicPath>
             <layers>
                 <li>Middle</li>
                 <li>Shell</li>

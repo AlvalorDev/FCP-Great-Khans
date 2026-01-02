@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Great Khans Name Makers __________-->
+
+    <!-- Male Name Maker -->
+    
+    <RulePackDef>
+        <defName>FCP_Khan_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[KhanMaleName]</li>
+                <li>KhanMaleName->Regis</li>
+                <li>KhanMaleName->Darion</li>
+                <li>KhanMaleName->Jerry</li>
+                <li>KhanMaleName->Oscar</li>
+                <li>KhanMaleName->Chomps</li>
+                <li>KhanMaleName->Chance</li>
+                <li>KhanMaleName->Jessup</li>
+                <li>KhanMaleName->McMurphy</li>
+                <li>KhanMaleName->Jack</li>
+                <li>KhanMaleName->Diane</li>
+                <li>KhanMaleName->Anders</li>
+                <li>KhanMaleName->Ranger</li>
+                <li>KhanMaleName->Motor-Runner</li>
+                <li>KhanMaleName->Papa</li>
+                <li>KhanMaleName->Garl</li>
+                <li>KhanMaleName->Darion</li>
+                <li>KhanMaleName->Snake</li>
+                <li>KhanMaleName->Razor</li>
+                <li>KhanMaleName->Gunner</li>
+                <li>KhanMaleName->Duke</li>
+                <li>KhanMaleName->Axe</li>
+                <li>KhanMaleName->Spike</li>
+                <li>KhanMaleName->Hawk</li>
+                <li>KhanMaleName->Wolf</li>
+                <li>KhanMaleName->Bear</li>
+                <li>KhanMaleName->Steel</li>
+                <li>KhanMaleName->Brick</li>
+                <li>KhanMaleName->Tank</li>
+                <li>KhanMaleName->Diesel</li>
+                <li>KhanMaleName->Torch</li>
+                <li>KhanMaleName->Rust</li>
+                <li>KhanMaleName->Blade</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- Female Name Maker -->
+    
+    <RulePackDef>
+        <defName>FCP_Khan_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[KhanFemaleName]</li>
+                <li>KhanFemaleName->Melissa</li>
+                <li>KhanFemaleName->Diane</li>
+                <li>KhanFemaleName->Roslyn</li>
+                <li>KhanFemaleName->Regis</li>
+                <li>KhanFemaleName->Erin</li>
+                <li>KhanFemaleName->Red</li>
+                <li>KhanFemaleName->Viper</li>
+                <li>KhanFemaleName->Raven</li>
+                <li>KhanFemaleName->Phoenix</li>
+                <li>KhanFemaleName->Storm</li>
+                <li>KhanFemaleName->Jade</li>
+                <li>KhanFemaleName->Crystal</li>
+                <li>KhanFemaleName->Ruby</li>
+                <li>KhanFemaleName->Scarlett</li>
+                <li>KhanFemaleName->Angel</li>
+                <li>KhanFemaleName->Mercy</li>
+                <li>KhanFemaleName->Justice</li>
+                <li>KhanFemaleName->Liberty</li>
+                <li>KhanFemaleName->Rebel</li>
+                <li>KhanFemaleName->Widow</li>
+                <li>KhanFemaleName->Fury</li>
+                <li>KhanFemaleName->Blaze</li>
+                <li>KhanFemaleName->Chaos</li>
+                <li>KhanFemaleName->Nova</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- Leader Title Maker -->
+    
+    <RulePackDef>
+        <defName>FCP_LeaderTitleMaker_Khan</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->[KhanLeaderTitle]</li>
+                <li>KhanLeaderTitle->Papa Khan</li>
+                <li>KhanLeaderTitle->Mama Khan</li>
+                <li>KhanLeaderTitle->Great Khan</li>
+                <li>KhanLeaderTitle->Khan</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

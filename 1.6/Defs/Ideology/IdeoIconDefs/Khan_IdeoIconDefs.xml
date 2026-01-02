@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Khan_Freedom</defName>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <cultures>
+            <li>FCP_Culture_Khan</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>

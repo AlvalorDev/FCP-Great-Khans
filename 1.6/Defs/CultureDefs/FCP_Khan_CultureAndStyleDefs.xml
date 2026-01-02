@@ -11,17 +11,17 @@
         <defName>FCP_Culture_Khan</defName>
         <label>Khan</label>
         <description>Culture of the Great Khans, a nomadic raider tribe descended from pre-war biker gangs.</description>
-        <pawnNameMaker>FCP_Khan_Namer_Male</pawnNameMaker>
-        <pawnNameMakerFemale>FCP_Khan_Namer_Female</pawnNameMakerFemale>
-        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoTribal</ideoNameMaker>
-        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityTribal</deityNameMaker>
-        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerTribal</deityTypeMaker>
+        <pawnNameMaker>FCP_Great_Khan_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_Great_Khan_Namer_Female</pawnNameMakerFemale>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoRustican</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
         <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Khan</leaderTitleMaker>
-        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalTribal</festivalNameMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
         <allowedPlaceTags>
             <li>OriginTribal</li>
         </allowedPlaceTags>
-        <iconPath>World_Icon/FCP_GreatKhans_World_Icon</iconPath>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
         <styleItemTags>
             <li>
                 <tag>Urban</tag>
@@ -71,8 +71,7 @@
     <StyleCategoryDef>
         <defName>FCP_Style_Khan</defName>
         <label>Khan</label>
-        <iconPath>World_Icon/FCP_GreatKhans_World_Icon</iconPath>
-        <ritualVisualEffectDef>Tribal</ritualVisualEffectDef>
+        <iconPath>World_Icon/Great_Khan_Icon/FCP_GreatKhans_World_Icon</iconPath>
         <thingDefStyles>
         </thingDefStyles>
     </StyleCategoryDef>
