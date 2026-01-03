@@ -70,10 +70,13 @@
 
         <backstoryFilters>
             <li>
-                <categories>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                     <li>FCP_Backstory_Wastelanders</li>
-                </categories>
+                </categoriesAdulthood>
                 <commonality>1</commonality>
             </li>
         </backstoryFilters>
