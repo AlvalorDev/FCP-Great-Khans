@@ -19,6 +19,9 @@
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.BallisticWeapons</li>
+        <li>Rick.FCP.MeleeWeapons</li>
+        <li>Rick.FCP.UnarmedWeapons</li>
     </loadAfter>
 
 </ModMetaData>

@@ -17,11 +17,14 @@
         </disallowedTraits>
         <backstoryFiltersOverride>
             <li>
-                <categories>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Khan_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
                     <li>FCP_Backstory_Khan</li>
                     <li>FCP_Backstory_Wastelanders</li>
-                    <li>FCP_Backstory_Khan_Child</li>
-                </categories>
+                </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
         <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
