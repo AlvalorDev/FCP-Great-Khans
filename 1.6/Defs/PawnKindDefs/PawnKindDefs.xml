@@ -8,7 +8,7 @@
 
     <!--___ Base ___-->
     
-<PawnKindDef Name="FCP_KhankindBase" ParentName="FCP_WastelanderkindBase" Abstract="true">
+    <PawnKindDef Name="FCP_KhankindBase" ParentName="FCP_WastelanderkindBase" Abstract="true">
         <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
         <chemicalAddictionChance>0.15</chemicalAddictionChance>
         <invNutrition>2.7</invNutrition>
@@ -36,7 +36,7 @@
     <!--___ Leader ___-->
     <!-- Khan Advisor -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Advisor</defName>
         <label>Khan Advisor</label>
         <factionLeader>true</factionLeader>
@@ -98,7 +98,7 @@
     <!--___ Warriors ___-->
     <!-- Khan Warrior -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Warrior</defName>
         <label>Khan warrior</label>
         <combatPower>65</combatPower>
@@ -153,7 +153,7 @@
 
     <!-- Khan Veteran -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Veteran</defName>
         <label>Khan veteran</label>
         <combatPower>100</combatPower>
@@ -215,7 +215,7 @@
 
     <!-- Khan Enforcer -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Enforcer</defName>
         <label>Khan enforcer</label>
         <combatPower>120</combatPower>
@@ -276,7 +276,7 @@
 
     <!-- Khan Chem Thrower -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Chem_Thrower</defName>
         <label>Khan chem thrower</label>
         <combatPower>80</combatPower>
@@ -331,7 +331,7 @@
     <!--___ Civilians ___-->
     <!-- Khan Civilian -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Civilian</defName>
         <label>Khan</label>
         <combatPower>50</combatPower>
@@ -362,7 +362,7 @@
 
     <!-- Khan Chem Maker -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Chem_Maker</defName>
         <label>Khan chem maker</label>
         <combatPower>40</combatPower>
@@ -397,7 +397,7 @@
     <!--___ Traders ___-->
     <!-- Khan Chem Dealer -->
     
-<PawnKindDef ParentName="FCP_KhankindBase">
+    <PawnKindDef ParentName="FCP_KhankindBase">
         <defName>FCP_Pawnkind_Khan_Chem_Dealer</defName>
         <label>Khan chem dealer</label>
         <trader>true</trader>
