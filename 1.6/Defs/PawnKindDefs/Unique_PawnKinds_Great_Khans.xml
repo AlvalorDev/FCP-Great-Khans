@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Unique Great Khans PawnKinds __________-->
+
+    <!--_____ Great Khans _____-->
+
+    <!-- Papa Khan -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Papa_Khan</defName>
+        <label>Papa Khan</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <factionLeader>true</factionLeader>
+        <combatPower>110</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Suit_Armor</li>
+            <li>FCP_Apparel_Great_Khan_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>1500~2200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+        </weaponTags>
+        <initialWillRange>7~8</initialWillRange>
+        <initialResistanceRange>30~40</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Papa_Khan_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Papa_Khan_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>100~180</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Regis -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Regis</defName>
+        <label>Regis</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>90</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Armored_Leathers</li>
+        </apparelRequired>
+        <weaponMoney>1200~1800</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>26~36</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Regis_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Regis_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Melissa Lewis -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Melissa</defName>
+        <label>Melissa</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>95</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Soldier_Armor</li>
+            <li>FCP_Apparel_Great_Khan_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>1300~1900</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_AssaultRifle</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>28~38</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Melissa_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Melissa_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>70~130</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Jack -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Jack</defName>
+        <label>Jack</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Armored_Leathers</li>
+        </apparelRequired>
+        <weaponMoney>1000~1500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>22~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Jack_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Jack_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>Steel</thingDef>
+                    <countRange>30~50</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Diane -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Diane</defName>
+        <label>Diane</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>50</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Simple_Armor</li>
+        </apparelRequired>
+        <weaponMoney>600~1000</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>18~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Diane_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Diane_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Jerry the Punk -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Jerry</defName>
+        <label>Jerry the Punk</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>70</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Simple_Armor</li>
+        </apparelRequired>
+        <weaponMoney>800~1200</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Jerry_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Jerry_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>40~80</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>SmokeleafJoint</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Karl -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Karl</defName>
+        <label>Karl</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Soldier_Armor</li>
+            <li>FCP_Apparel_Great_Khan_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>1100~1600</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Shotgun</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>24~34</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Karl_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Karl_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>60~110</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Oscar Velasco -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Oscar</defName>
+        <label>Oscar Velasco</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>80</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Armored_Leathers</li>
+        </apparelRequired>
+        <weaponMoney>1000~1500</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>23~33</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Oscar_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Oscar_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>55~105</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Jessup -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Jessup</defName>
+        <label>Jessup</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>75</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Soldier_Armor</li>
+        </apparelRequired>
+        <weaponMoney>900~1400</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Jessup_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Jessup_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Anders -->
+    
+    <PawnKindDef ParentName="FCP_KhankindBase">
+        <defName>FCP_Unique_Pawnkind_Anders</defName>
+        <label>Anders</label>
+        <defaultFactionDef>FCP_Faction_GreatKhans</defaultFactionDef>
+        <combatPower>78</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Great_Khan_Soldier_Armor</li>
+            <li>FCP_Apparel_Great_Khan_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>950~1450</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Ballistic_SMG</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>21~31</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Anders_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Anders_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>50~95</countRange>
+                </li>
+                <li>
+                    <thingDef>Beer</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+</Defs>
