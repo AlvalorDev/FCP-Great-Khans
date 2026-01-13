@@ -125,6 +125,7 @@
                 <li>Middle</li>
                 <li>Shell</li>
             </layers>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
             <tags>
                 <li>FCP_Great_Khan_Armor</li>
                 <li>FCP_Great_Khan_Soldier</li>
@@ -335,6 +336,7 @@
                 <li>Middle</li>
                 <li>Shell</li>
             </layers>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
             <tags>
                 <li>FCP_Great_Khan_Elite</li>
                 <li>FCP_Great_Khan_Leader</li>

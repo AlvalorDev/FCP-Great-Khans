@@ -57,7 +57,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(140, 130, 120)</hairColor>
                 <hairDef>FCP_Hair_Balding</hairDef>
-                <beardDef>Beard_Full</beardDef>
+                <beardDef>Full</beardDef>
                 <skinColorOverride>(175, 150, 125)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -207,7 +207,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(75, 60, 45)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
-                <beardDef>BeardShort</beardDef>
+                <beardDef>Goatee</beardDef>
                 <skinColorOverride>(160, 135, 110)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
