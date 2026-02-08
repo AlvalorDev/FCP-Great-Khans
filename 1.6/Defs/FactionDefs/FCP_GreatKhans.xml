@@ -183,13 +183,13 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<modExtensions>
             <!-- Make them hostile to the NCR -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="altushka.boscompendium">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
@@ -198,7 +198,7 @@
                 </arrivalModes>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Khan_Freedom</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Khan</memberName>
